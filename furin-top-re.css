@@ -1,0 +1,131 @@
+@media(max-width:900px){
+
+    /* NAV */
+    .top-ul li{
+        font-size:15px;
+    }
+    /* TOP-VIEW */
+    .top-view{
+        height:450px;
+        background-position:bottom right;
+    }
+    /* NEWS */
+    .news,.news p,a1{
+        font-size:16px;
+    }
+    /* Sub */
+    .SubNewsTxt p{
+        font-size:12px;
+    }
+}
+@media(min-width:601px){
+    .contents{
+        display:flex;
+    }
+}
+
+@media(max-width:600px){
+    /* HEADER */
+    header{
+        height:70px;
+        padding-top:12px;
+    }
+    .header-logo img{
+        width:50px;
+    }
+    #sub-ttl,.header-Rtxt{
+        font-size:12px;
+    }
+    #main-ttl{
+        font-size:20px;
+    }
+    #header-ttl{
+        font-size:30px;
+    }
+    /* NAV */
+    .top-nav{
+        height:56px;
+    }
+    .top-ul li{
+        font-size:12px;
+        line-height:56px;
+    }
+    /* TOP-VIEW */
+    .top-view{
+        height:300px;
+    }
+    /* NEWS */
+    .news,.news p,.a1{
+        font-size:12px;
+    }
+    /*CONTENTS */
+  
+    .main-contents,.side-contents{
+        width:100%;
+    }
+
+
+    /*/*/*/*/*/
+    .mainNews-wrapper-h1,.service-wrapper-h1,.subContact-wrapper-h1{
+        border-top:5px white solid;
+        height:40px;
+        padding-left:15px;
+    }
+    .mainNews-wrapper h1, .service-wrapper h1,.subContact-wrapper h1{
+        line-height:35px;
+        font-size:16px;
+    }
+    /* SERVICE */
+    .services{
+        display:grid;
+        grid-template-columns:1fr;
+        gap: 30px 10px;
+    }
+    .service p{
+        display:none;
+    }
+    /* SUB-CONTACT */
+    #highlight{
+        font-size:16px;
+    }
+    .sub-contact p{
+        font-size:12px;
+    }
+    #contact-btn{
+        width:70%;
+        height:50px;
+    }
+    .sub-contact a{
+        font-size:12px;
+        line-height:35px;
+    }
+    .contact-btn{
+        height:35px;
+    }
+    /* Sub News */
+    .SubNewsTxt p{
+        font-size:16px;
+    }
+    /*PAGE-TOP-BTN*/
+    .page-top-btn{
+        position:fixed;
+        bottom:15px;
+        right:15px;
+    }
+    .page-top-btn a{
+        font-size:20px;
+    }
+    
+    /* FOOTER */
+    footer{
+        height:220px;
+        padding-top:10px;
+    }
+    .footer-ttl img{
+        width:50px;
+    }
+    .footer-address p,.footer-nav li{
+        font-size:12px;
+    }
+
+}
