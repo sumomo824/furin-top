@@ -155,6 +155,8 @@ header{
 .service img{
     width:100%;
 }
+.service p{
+margin-top:10px;
         /* SUB-CONTACT */
 .sub-contact{
     margin-top:20px;
